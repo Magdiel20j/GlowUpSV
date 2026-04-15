@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  /* Colores Principales del Branding */
+  --color-main: #00c2a8;      /* Turquesa vibrante */
+  --color-text: #2d4a44;      /* Verde muy oscuro para lectura */
+  --color-danger: #e1665d;    /* Rojo suave para errores o "Sin Stock" */
+  --color-white: #f0f4f8;     /* Blanco azulado para fondos/pestañas */
+  
+  /* Colores de Interfaz Extraídos del Dashboard */
+  --color-bg-light: #f8fafc;  /* Fondo general de la aplicación */
+  --color-border: #e2e8f0;    /* Bordes de inputs y tablas */
+  --color-success: #00c2a8;   /* Usado también para estado "Disponible" */
+  --color-neutral: #94a3b8;   /* Gris para estado "Descontinuado" o iconos */
+  
+  /* Variantes con Opacidad (útiles para los Badges) */
+  --color-main-muted: rgba(0, 194, 168, 0.2);
+  --color-white-muted: rgba(255, 255, 255, 0.3);
+}
